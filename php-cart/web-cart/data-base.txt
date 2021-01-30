@@ -1,0 +1,11 @@
+CREATE DATABASE `coursesonline`;
+
+USE `coursesonline`;
+
+CREATE TABLE `courses`(`courseid` INT(255) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT, `course` VARCHAR(100) NOT NULL, `price` DECIMAL(5, 2) NOT NULL, `img` VARCHAR(100) NOT NULL);
+
+INSERT INTO `courses` (`course`, `price`, `img`) VALUES ('Web Designer', 129.99, 'imgs/course-webdesigner.jpg');
+
+INSERT INTO `courses` (`course`, `price`, `img`) VALUES ('Node.JS', 120.99, 'imgs/course-nodejs.jpg');
+
+INSERT INTO `courses` (`course`, `price`, `img`) VALUES ('JavaFX', 109.99, 'imgs/course-java.jpg');
