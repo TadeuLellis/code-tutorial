@@ -1,0 +1,25 @@
+{  
+    "books":[  
+       { 
+          "bookid":1,
+          "isbn":950004080400,
+          "bookname":"Aprendendo Node.js",
+          "author":"David Smith",
+          "Price":110.20
+       },
+       { 
+           "bookid":2,
+           "isbn":907005070701,
+           "bookname":"Desenvolvimento em React.js",
+           "author":"Jones Santos",
+           "price":120.40
+       },
+       { 
+           "bookid":3,
+           "isbn":978040508017,
+           "bookname":"Programando em JavaScript",
+           "author":"Jones Santos",
+           "price":105.70
+       }
+    ]
+  }
