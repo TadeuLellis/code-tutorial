@@ -1,6 +1,6 @@
 var express = require('express'); // express para criar as rotas e ao servidor
 var bodyParser = require('body-parser');  // bodyParser para converter o body da requisição
-var fs = require('fs'); // fs (file system) para manipular arquivo images.json
+var fs = require('fs'); // fs (file system) para manipular arquivo books.json
 
 var app = express();  // cria instância de servidor express e atribui a variável app
 
